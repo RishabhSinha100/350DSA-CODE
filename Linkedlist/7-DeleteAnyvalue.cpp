@@ -116,6 +116,8 @@ int main() {
     insertAthead(head, tail, 4);
     insertattail(tail, 6);
     insertAtPosition(head, tail, 10, 1);
+    insertAtPosition(head, tail, 4, 1);
+
     insertAtPosition(head, tail, 8, 5); // Inserts at the end
     print(head);
     deletenode(head, tail, 4);
